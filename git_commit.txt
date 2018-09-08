@@ -1,0 +1,73 @@
+$ git --version
+$ git config --list
+$ date
+$ git config --global user.name "naveen,sm"
+$ git config --global user.email "naveensmresume@gmail.com"
+$ git config --list
+$ cd e:/'Dev Ops'
+$ git init
+$ git status
+$ git add .
+$ git add test1.txt
+$ git commit -m "commit1"
+$ git commit -am "commited without add"
+$ git log
+$ git help init
+$ git help
+$ git log --author "naveen,sm"
+$ git commit
+$ gtit diff
+$ git diff --staged
+$ git diff a912362 43fbc25
+$ git diff HEAD HEAD
+$ git rm test3.txt
+$ git remote add origin https://github.com/mail2naveensm/centrailized.git
+$ git push origin master
+$ git pull origin master
+$ git branch
+$ git branch -a
+$ git branch naveen
+$ git branch -m navroon naveen
+$ git branch -d naveen
+$ git checkout -b new_branch
+$ git checkout naveen
+$ git merge naveen
+$ git reset HEAD test5.txt
+$ git reset HEAD~
+$ git checkout -- humans.txt
+$ git clone https://github.com/mail2naveensm/starter-web.git
+$ git log --oneline --graph --decorate
+$ git log --since="5 days ago"
+$ git show 6bd72df8acb16a97cbb84ef392e288a2458cf0be
+$ git show humans.txt
+$ git config --global alias.loghistory "log --all --oneline --decorate --graph"
+$ git loghistory
+$ git stash
+$ git stash list
+$ git stash apply
+$ git stash drop
+$ git stash -u
+$ git stash -a
+$ git stash pop
+$ git stash save "change 2 in nav.txt"
+$ git stash apply stash@{1}
+$ git stash show stash@{0}
+$ git stash drop stash@{1}
+$ git stash clear
+$ git stash branch new_branch
+$ git tag checktag1.0.02
+$ git tag --delete checktag
+$ git tag --list
+$ git tag -a ver1.0.3
+$ git tag --list
+$ git show ver1.0.3
+$ git tag -a old_version  570ee13
+$ git checkout nav.txt
+$ git commit --amend -m "tag detailss check"
+$ git reset --soft e34d8df
+$ git reset e34d8df
+$ git reset  --hard e34d8df
+$ git reflog
+$ git checkout cbef86c
+$ git branch again_new_branch
+$ git checkout  again_new_branch
